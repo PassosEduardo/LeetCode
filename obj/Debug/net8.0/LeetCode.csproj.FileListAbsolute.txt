@@ -1,0 +1,14 @@
+c:\Users\dudus\Area de Trabalho\Repos\LeetCode\bin\Debug\net8.0\LeetCode.exe
+c:\Users\dudus\Area de Trabalho\Repos\LeetCode\bin\Debug\net8.0\LeetCode.deps.json
+c:\Users\dudus\Area de Trabalho\Repos\LeetCode\bin\Debug\net8.0\LeetCode.runtimeconfig.json
+c:\Users\dudus\Area de Trabalho\Repos\LeetCode\bin\Debug\net8.0\LeetCode.dll
+c:\Users\dudus\Area de Trabalho\Repos\LeetCode\bin\Debug\net8.0\LeetCode.pdb
+c:\Users\dudus\Area de Trabalho\Repos\LeetCode\obj\Debug\net8.0\LeetCode.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\dudus\Area de Trabalho\Repos\LeetCode\obj\Debug\net8.0\LeetCode.AssemblyInfoInputs.cache
+c:\Users\dudus\Area de Trabalho\Repos\LeetCode\obj\Debug\net8.0\LeetCode.AssemblyInfo.cs
+c:\Users\dudus\Area de Trabalho\Repos\LeetCode\obj\Debug\net8.0\LeetCode.csproj.CoreCompileInputs.cache
+c:\Users\dudus\Area de Trabalho\Repos\LeetCode\obj\Debug\net8.0\LeetCode.dll
+c:\Users\dudus\Area de Trabalho\Repos\LeetCode\obj\Debug\net8.0\refint\LeetCode.dll
+c:\Users\dudus\Area de Trabalho\Repos\LeetCode\obj\Debug\net8.0\LeetCode.pdb
+c:\Users\dudus\Area de Trabalho\Repos\LeetCode\obj\Debug\net8.0\LeetCode.genruntimeconfig.cache
+c:\Users\dudus\Area de Trabalho\Repos\LeetCode\obj\Debug\net8.0\ref\LeetCode.dll
