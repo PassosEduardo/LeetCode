@@ -1,6 +1,8 @@
-public static class FindThePrefixCommonArray
+using LeetCode;
+
+public class FindThePrefixCommonArray : IProblem
 {
-    public static int[] FindThePrefixCommonArrayMethod(int[] array1, int[] array2)
+    private int[] FindThePrefixCommonArrayMethod(int[] array1, int[] array2)
     {
         int[] commonPrefix = { };
 
@@ -27,5 +29,16 @@ public static class FindThePrefixCommonArray
 
 
         return commonPrefix;
+    }
+
+    public void Execute()
+    {
+        var result = FindThePrefixCommonArrayMethod([1, 3, 2, 4], [3, 1, 2, 4]);
+
+        System.Console.WriteLine(string.Join(",", result));
+
+        result = FindThePrefixCommonArrayMethod([2, 3, 1], [3, 1, 2]);
+
+        System.Console.WriteLine(string.Join(",", result));
     }
 }
