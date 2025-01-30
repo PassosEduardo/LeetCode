@@ -18,6 +18,9 @@ public static class ProblemFactory
             case nameof(AddTwoNumbers):
                 return new AddTwoNumbers();
 
+            case nameof(LengthOfLongestSubstring):
+                return new LengthOfLongestSubstring();
+
             default:
                 return new ProblemNotFound(problemName);
         }
