@@ -21,6 +21,9 @@ public static class ProblemFactory
             case nameof(LengthOfLongestSubstring):
                 return new LengthOfLongestSubstring();
 
+            case nameof(LongestPalindromeSubstring):
+                return new LongestPalindromeSubstring();
+
             default:
                 return new ProblemNotFound(problemName);
         }
