@@ -1,5 +1,4 @@
-﻿global using LeetCode.Problems;
-global using LeetCode.Configuration;
+﻿global using LeetCode.Configuration;
 global using LeetCode;
 
 namespace LeetCode.Configuration;
@@ -7,26 +6,15 @@ public static class ProblemFactory
 {
     public static IProblem ProduceProblem(string problemName)
     {
-        switch (problemName)
-        {
-            case nameof(FindThePrefixCommonArray):
-                return new FindThePrefixCommonArray();
+        var typeName = "LeetCode.Problems." + problemName;
 
-            case nameof(TwoSum):
-                return new TwoSum();
 
-            case nameof(AddTwoNumbers):
-                return new AddTwoNumbers();
+        var type = Type.GetType(typeName);
 
-            case nameof(LengthOfLongestSubstring):
-                return new LengthOfLongestSubstring();
+        var obj = Activator.CreateInstance(type);
 
-            case nameof(LongestPalindromeSubstring):
-                return new LongestPalindromeSubstring();
-
-            default:
-                return new ProblemNotFound(problemName);
-        }
+        
+        return (IProblem) obj;
     }
 }
 

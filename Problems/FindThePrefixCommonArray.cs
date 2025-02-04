@@ -1,5 +1,4 @@
-using LeetCode;
-
+namespace LeetCode.Problems;
 public class FindThePrefixCommonArray : IProblem
 {
     private int[] FindThePrefixCommonArrayMethod(int[] array1, int[] array2)
